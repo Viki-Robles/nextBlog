@@ -14,7 +14,7 @@ export default function FirstPost() {
                 <Link href='/'><a>Back to homepage</a></Link>
             </h2>
             <h4>
-                <Link href='/posts/second-post'><a>Click her for the Second Post</a></Link>
+                <Link href='/posts/second-post'><a>Click here for the Second Post</a></Link>
             </h4>
         </Layout>
 
