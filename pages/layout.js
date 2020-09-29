@@ -1,11 +1,10 @@
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
-import Head from 'next/head';
+import styles from "./layout.module.css";
+import utilStyles from "./styles/utils.module.css";
+import Link from "next/link";
+import Head from "next/head";
 
-
-const name = 'Vicky Vasilopoulou';
-export const siteTitle = 'Next Fist Blog';
+const name = "Vicky Vasilopoulou";
+export const siteTitle = "Next Fist Blog";
 
 export default function Layout({ children, home }) {
   return (
@@ -36,8 +35,8 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
-          <>      
-          <Link href="/">
+          <>
+            <Link href="/">
               <a>
                 <img
                   src="/images/profilePicture.png"
@@ -63,5 +62,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
