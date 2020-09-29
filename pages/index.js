@@ -4,7 +4,7 @@ import utilStyles from "./styles/utils.module.css";
 import Link from "next/link";
 import { getSortedPostsData } from "../lib/posts";
 import dynamic from "next/dynamic";
-const DateComponent = dynamic(() => import("../components/date"));
+const DateComponent = dynamic(() => import("../components/Date/date"));
 
 export default function Home({ allPostsData }) {
   return (
