@@ -36,11 +36,11 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
-          <>
-            <Link href="/">
+          <>      
+          <Link href="/">
               <a>
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/profilePicture.png"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
